@@ -1,7 +1,7 @@
 package com.paulz.demo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import com.paulz.demo.mode.Data1;
@@ -29,28 +29,26 @@ public class MainActivity extends AppCompatActivity {
 
     private void createData(){
         List<Object> dataAll=new ArrayList<>();
-        dataAll.add(new Data1("打开链接快乐大脚"));
+        dataAll.add(new Data1("小白兔和大灰狼的故事"));
+        dataAll.add(new Data1("话说小白兔遇到大灰狼"));
         dataAll.add(new Data2(R.drawable.img1));
         dataAll.add(new Data2(R.drawable.img2));
-        dataAll.add(new Data1("萨达姆分，吗，"));
+        dataAll.add(new Data1("小白兔说大灰狼大灰狼 你快问我是不是小白兔"));
         dataAll.add(new Data3(R.drawable.img3,R.drawable.img4,R.drawable.img5));
-        dataAll.add(new Data4("昂啥呢",true));
-        dataAll.add(new Data3(R.drawable.img6,R.drawable.img7,R.drawable.img8));
-        dataAll.add(new Data1("萨达姆分，吗，"));
-        dataAll.add(new Data2(R.drawable.img9));
-        dataAll.add(new Data2(R.drawable.img10));
-        dataAll.add(new Data2(R.drawable.img11));
-        dataAll.add(new Data1("暗红色的尽快和圣诞节快放假"));
-        dataAll.add(new Data1("跨境开理发店了"));
-        dataAll.add(new Data1("1434"));
-        dataAll.add(new Data1("地方"));
-        dataAll.add(new Data1("主线程执行"));
-        dataAll.add(new Data4("ansdklma,sdm,",true));
+        dataAll.add(new Data4("你快问啊快问啊！！！！",true));
+        dataAll.add(new Data1("大灰狼说 你是不是小白兔啊？"));
+        dataAll.add(new Data2(R.drawable.img6));
+        dataAll.add(new Data2(R.drawable.img7));
+        dataAll.add(new Data1("小白兔很高兴 是的是的我是的！！！"));
+        dataAll.add(new Data1("然后"));
+        dataAll.add(new Data1("小白兔又说 大灰狼大灰狼 你快问我是不是长颈鹿"));
+        dataAll.add(new Data2(R.drawable.img8));
+        dataAll.add(new Data1("你快问啊快问啊！！！！"));
+        dataAll.add(new Data1("大灰狼很无奈 好吧。。。那。。。你是不是长颈鹿啊"));
+        dataAll.add(new Data4("小白兔朝他后脑勺一巴掌 你个笨蛋！我都说了我是小白兔了！！！。。。。。",true));
         dataAll.add(new Data4("撒角度看",true));
-        dataAll.add(new Data3(R.drawable.img12,R.drawable.img13,R.drawable.img14));
-        dataAll.add(new Data1("暗红色的尽快和圣诞节快放假"));
-        dataAll.add(new Data1("13123123"));
-        dataAll.add(new Data1("154667678"));
+        dataAll.add(new Data3(R.drawable.img9,R.drawable.img10,R.drawable.img11));
+        dataAll.add(new Data1("。。。。。。。。。。。。"));
         mAdapter.setList(dataAll);
         mAdapter.notifyDataSetChanged();
     }
